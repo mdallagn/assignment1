@@ -37,4 +37,5 @@ terraform.rc
 
 .terraform.lock.hcl
 assignment1
-assignment1.pub
+assignment1.pubterraform/.terraform/
+terraform/.terraform/
