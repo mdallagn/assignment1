@@ -128,8 +128,8 @@ resource "aws_security_group" "web_sg" {
 
 
 # Create an AWS Elastic Container Registry (ECR) repository for web server images
-resource "aws_ecr_repository" "webserver_images" {
-  name = "webserver_images-images"
+resource "aws_ecr_repository" "webserver-images" {
+  name = "webserver-images"
 }
 
 # Create an AWS Elastic Container Registry (ECR) repository for MySQL images
