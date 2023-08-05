@@ -20,7 +20,7 @@ variable "prefix" {
 # Define a variable "instance_type" that sets a default value "t3.micro".
 # This variable is of type "string" and specifies the type of EC2 instance to be launched.
 variable "instance_type" {
-  default     = "t3.micro"
+  default     = "t2.micro"
   type        = string
   description = "Type of the instance: The EC2 instance type for the web server."
 }
