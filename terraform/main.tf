@@ -61,7 +61,7 @@ resource "aws_subnet" "public_subnet" {
 
 # Create a security group for the web server instances
 resource "aws_security_group" "web_sg" {
-  name        = "webserver-SG"
+  name        = "webserver-sg"
   description = "SG for web server"
   vpc_id      = data.aws_vpc.default.id
 
